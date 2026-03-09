@@ -7,6 +7,28 @@
     <title>Formulário</title>
 </head>
 <body>
-    
+    <header></header>
+    <main>
+        <section>
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <form action="" method="get">
+                    <label for="userName">Nome</label>
+                    <input type="text" name="userName" required>
+                    <br>
+                    <label for="birthDate">Idade</label>
+                    <input type="date" name="birthDate" min="12" max="100" required>
+                    <br>
+                    <label for="userEmail">Email</label>
+                    <input type="email" name="userEmail" required>
+                    <br>
+                    <label for="userPhoneNumber">Telefone</label>
+                    <input type="tel" name="userPhoneNumber" pattern="[0-9]{11}">
+                    <br>
+                    <button type="submit">Enviar</button>
+                </form>
+            </fieldset>
+        </section>
+    </main>
 </body>
 </html>
